@@ -117,7 +117,6 @@ print('Vel. Vento : ' + str(velocidadeVento) + ' kt')   # velocidade do vento (e
 
 print('Condição : ' + descCondicao)   
 """
-
 # ----------------------------------------- ENVIO PARA API -------------------------------------------
 dados['wx'] = {'cidade': cidade, 'estado': estado, 'estacao': estacao, 'temperatura': temperatura, 'sensacao': sensacao, 'orvalho': orvalho, 'umidade': umidade, 'pressao': pressao, 'uv': UV, 'visibilidade': visibilidade, 'cobertura': descCondicao, 'precipitacao': precipitacao, 'direcaovento': direcaoVento, 'velocidadevento': velocidadeVento}
 
