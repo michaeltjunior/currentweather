@@ -2,7 +2,7 @@ name: run meteoAtual.py
 
 on:
   schedule:
-    - cron: '0 */0,5 * * *'  # hourly 
+    - cron: '0 */1 * * *'  # hourly 
 
 jobs:
   build:
