@@ -19,7 +19,6 @@ def hPa(mmhg):
     return round(press, 1)
 
 page = requests.get("https://www.wunderground.com/weather/br/crici%C3%BAma")
-#soup = BeautifulSoup(page.content, "html.parser")
 soup = BeautifulSoup(page.content, "lxml")
 
 dados = soup.find(title='Additional Conditions')
