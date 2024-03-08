@@ -115,7 +115,8 @@ print('Precipitação acumulada : ' + str(precipitacao) + ' mm')   # precipitaç
 print('Dir. Vento : ' + str(direcaoVento) + ' °')   # velocidade do vento (em nós)
 print('Vel. Vento : ' + str(velocidadeVento) + ' kt')   # velocidade do vento (em nós)
 
-print('Condição : ' + descCondicao)   
+print('Condição : ' + descCondicao)  
+ 
 """
 # ----------------------------------------- ENVIO PARA API -------------------------------------------
 dados['wx'] = {'cidade': cidade, 'estado': estado, 'estacao': estacao, 'temperatura': temperatura, 'sensacao': sensacao, 'orvalho': orvalho, 'umidade': umidade, 'pressao': pressao, 'uv': UV, 'visibilidade': visibilidade, 'cobertura': descCondicao, 'precipitacao': precipitacao, 'direcaovento': direcaoVento, 'velocidadevento': velocidadeVento}

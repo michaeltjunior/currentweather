@@ -1,4 +1,4 @@
-name: run meteoAtual.py
+name: run meteoAtual.py  
 
 on:
   schedule:
