@@ -21,4 +21,4 @@ jobs:
           pip install requests
           
       - name: execute py script # run main.py
-        run: python meteoAtual.py
+        run: python /home/runner/work/currentweather/meteoAtual.py
