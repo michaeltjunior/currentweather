@@ -20,7 +20,8 @@ def hPa(mmhg):
     return round(press, 1)
 
 page = requests.get("https://www.wunderground.com/weather/br/crici%C3%BAma")
-soup = BeautifulSoup(page.content, "lxml")
+#soup = BeautifulSoup(page.content, "lxml")
+soup = BeautifulSoup(page.content, "html.parser")
 
 dados = soup.find(title='Additional Conditions')
 dados2 = dados.find(class_=['test-true', 'wu-unit-temperature', 'is-degree-visible', 'ng-star-inserted'])
