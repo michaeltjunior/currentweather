@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import lxml
 
 headers = {'Accept': 'text/plain'}
 dados = {'wx': []}
